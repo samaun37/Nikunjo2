@@ -1,0 +1,28 @@
+.addtoletText{
+    padding-left: 155px;
+
+}
+.selector{
+    margin-left: 155px;
+    margin-top: 20px;
+}
+.formItems{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start; 
+    justify-content: space-around; 
+    padding-left: 100px;
+}
+.eachFormItems{
+    /* width: 23%;  */
+    width: 23%; /* Adjust width as needed, considering margins, padding, etc. */
+    margin: 10px;
+}
+.imageInput{
+    padding-left: 155px;
+}
+.doneButton{
+    margin-left: 155px;
+    width: 80px;
+    background-color: rgb(58, 236, 35);
+}

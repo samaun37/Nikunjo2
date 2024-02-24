@@ -1,0 +1,25 @@
+/* .card-grid{
+    display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+} */
+
+.card-grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start; /* Adjust alignment as needed */
+    justify-content: space-around; /* Adjust justification as needed */
+    padding-left: 155px;
+  }
+  
+  /* Assuming each card should take 25% width to fit 4 cards in a row */
+  .card {
+    width: 23%; /* Adjust width as needed, considering margins, padding, etc. */
+    margin: 10px; /* Add margin for spacing between cards */
+    /* Additional styling for each card */
+  }
+  /* .p{
+    color: black;
+  }
+   */

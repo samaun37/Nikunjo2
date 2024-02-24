@@ -1,0 +1,63 @@
+.signInPage{
+    margin-left: 155px;
+    margin-top: 10px;
+}
+
+
+button {
+    padding: 5px;
+    border-radius: 5px;
+    width: 100px;
+    background-color: rgb(28, 228, 45);
+
+}
+.logout-container {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    padding: 10px; /* Adjust padding as needed */
+  }
+  
+  .logout-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #007bff; /* Adjust the background color */
+    color: #fff; /* Adjust the text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 5px; /* Adjust border-radius as needed */
+    cursor: pointer;
+  }
+
+  .logout-button:hover {
+    background-color: #0056b3; /* Adjust the hover background color */
+  }
+
+.submitButton{
+    background-color: rgb(28, 228, 45);
+}
+input{
+    margin-left: 30px;
+    border-radius: 5px;
+    background-color: rgb(179, 205, 211);
+}
+.signInForm {
+    display: flex;
+    flex-direction: column;
+}
+.signInForm div {
+    margin-bottom: 15px;
+}
+
+.signInForm label {
+    margin-bottom: 5px; /* Adjust the margin between labels and inputs */
+}
+
+
+.text {
+    margin: 2px;
+    padding: 5px;
+}

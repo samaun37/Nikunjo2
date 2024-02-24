@@ -1,0 +1,59 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    height: 55px;
+    padding-left: 0px;
+    padding-right: 200px;
+  }
+
+  /* .home,
+  .addTolet,
+  .login {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      text-decoration: none;
+      height: 55px;
+  } */
+
+  
+.home{
+    flex: 3;
+    text-decoration: none;
+    margin-left: 155px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+.addTolet{
+  flex: 1;
+  text-align: center;
+  text-decoration: none;
+  justify-content: center;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+.signIn{
+  flex: 1;
+  text-align: center;
+  text-decoration: none;
+  justify-content: center;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+/* .navbar a:hover {
+  box-shadow: inset 0 0 0 9999px rgba(0, 1, 0, 0.3); 
+} */
+.navbar a:hover {
+  color: blue; /* Change the text color to green on hover */
+}
+

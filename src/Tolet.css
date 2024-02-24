@@ -1,0 +1,11 @@
+.toletData{
+    display: flex;
+    margin-left: 155px;
+}
+.toletDetails{
+    margin-top: 15px;
+}
+.normal-black {
+    color: black;
+    font-weight: normal;
+  }

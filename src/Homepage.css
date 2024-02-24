@@ -1,0 +1,45 @@
+.homepageHeading{
+    padding-left: 155px;
+}
+.div{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+      
+}
+
+.allToletsText{
+  padding-left: 155px;
+}
+
+.searchBar{
+  margin-left: 130px;
+  display: flex;
+}
+.searchFields {
+  background-color: #d4ddd6; 
+  width: 175px;
+}
+.searchButton{
+  width: 100px;
+  justify-content: center;
+  padding: 10px;
+  padding-top: 10px;
+}
+
+input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+  /* button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    color: red;
+  } */

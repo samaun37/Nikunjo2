@@ -1,0 +1,12 @@
+.carousal{
+    margin-top: 50px;
+    display: flex;
+
+}
+.slide_direction{
+    display: flex;
+}
+.imageChanger{
+    margin-top: 165px;
+    padding: 10px;
+}
