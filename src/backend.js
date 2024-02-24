@@ -106,10 +106,10 @@ app.post('/signIn', async (req, res) => {
     if (!user) {
       return res.status(404).json({ message: 'User not found' });
     }
-    else{
-      console.log(user)
-      console.log(password)
-    }
+    // else{
+    //   console.log(user)
+    //   console.log(password)
+    // }
     if (password === user.password) {
       return res.status(200).json({ message: 'Sign-in successful', user });
     }
@@ -130,7 +130,7 @@ app.get('/getAllToLets', async (req, res) => {
 app.get('/searchHouseRent', async (req, res) => {
   const { country, city, minRent, maxRent, area } = req.query; // Assuming parameters are passed as query parameters
 
-  console.log(req.query);
+ // console.log(req.query);
 
   try {
     let query = {};
@@ -171,7 +171,7 @@ app.get('/getAllPostForThisUser', async (req, res) => {
       query.email = email.trim();
     }
     const searchResults = await toletModel.find(query);
-    console.log(searchResults[0])
+   // console.log(searchResults[0])
     res.json(searchResults);
   } catch (error) {
     console.error(error);
@@ -191,10 +191,49 @@ app.get('/getToLetById', async (req, res) => {
       query.id = toletId.trim();
     }
     const searchResults = await toletModel.find(query);
-    console.log(searchResults[0])
+  //  console.log(searchResults[0])
     res.json(searchResults[0]);
   } catch (error) {
     console.error(error);
     res.status(500).json({ message: 'Error fetching data from the database' });
   }
 });
+
+// app.delete('/deleteTolet/:id', async (req, res) => {
+//   const id = req.params.id;
+//   try {
+//     const deletedTolet = await toletModel.findByIdAndDelete(id);
+//     if (!tolet) {
+//       throw new Error('Tolet not found');
+//     }
+//     res.status(200).json({ message: 'deleted successfully' });
+//   } catch (error) {
+//     res.status(500).json({ message: error.message });
+//   }
+// });
+
+app.post('/deleteTolet', async (req, res) => {
+  const { id } = req.body;
+  console.log("samaun ",id);
+
+  try {
+    let query = {};
+    if (id) {
+      query.id = id;
+    }
+    const searchResult = await toletModel.findOne(query);
+    console.log("samaun delete req id is ", id);
+    if (!searchResult) {
+      throw new Error('Tolet not found');
+    }
+    const realId = searchResult._id;
+    console.log("samau real ",searchResult);
+    const deletedTolet = await toletModel.findByIdAndDelete(realId);
+    //await searchResult.remove();
+    res.status(200).json({ message: 'deleted successfully' });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: 'Error deleting ' });
+  }
+});
+

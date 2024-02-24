@@ -38,11 +38,6 @@ export function MyPosts({email}){
               <div>
                 <h2 className="myAllPosts">My Posts</h2>
                 <CardGrid data = {myposts}/>
-                {/* {myposts.map(card => (
-                      <p >rent: {card.rent} | room:{card.room} | washroom: {card.washroom} </p>
-                  ))} */}
-
-
               </div>
 
             )

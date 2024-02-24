@@ -17,13 +17,4 @@ const CardGrid = ({ data }) => {
   );
 };
 
-const CardDetailPage = ({ cardsData }) => {
-  const { id } = useParams();
-  const selectedCard = cardsData.find((card) => card.id === parseInt(id));
-  return (
-    <div className="card-detail-page">
-      <CardDetails data={selectedCard} />
-    </div>
-  );
-};
 export default CardGrid;
