@@ -68,3 +68,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+some screenshots of the website:
+
+
+
+
+![2024-04-19](https://github.com/samaun37/Rent-a-House/assets/76416089/4d4a9c79-d814-41df-9d2a-9c86d447bfc6)
+![2024-04-19 (3)](https://github.com/samaun37/Rent-a-House/assets/76416089/22b8176c-066b-43d9-a60b-cb21e8c0bee0)
+![b90d0a11-a732-40b8-a6ff-0c8dc55d2a08](https://github.com/samaun37/Rent-a-House/assets/76416089/c0759759-72bf-4ab6-819d-fe38e3709726)
+![2024-04-19 (5)](https://github.com/samaun37/Rent-a-House/assets/76416089/2a50d74e-2c15-4a0b-9e1d-311b5f48eb26)
+![2024-04-19 (6)](https://github.com/samaun37/Rent-a-House/assets/76416089/a7594daa-fa6c-4382-b7c5-1dcc2f68145d)
+![2024-04-19 (8)](https://github.com/samaun37/Rent-a-House/assets/76416089/a837edbf-180d-4d80-b730-4007def7f631)
+![2024-04-19 (7)](https://github.com/samaun37/Rent-a-House/assets/76416089/6aaf1d1c-dd33-4db7-8ff4-e7765a3fddbe)
